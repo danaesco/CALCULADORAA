@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora App</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4A00E0,#8E2DE2);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.container{
+    text-align:center;
+    background:rgba(255,255,255,0.1);
+    padding:40px;
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+    width:90%;
+    max-width:600px;
+}
+
+.logo{
+    width:150px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#00C853;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:10px;
+    font-size:22px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#00A844;
+}
+
+.features{
+    margin-top:30px;
+    text-align:left;
+}
+
+.features h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.features ul{
+    list-style:none;
+}
+
+.features li{
+    padding:8px 0;
+    font-size:18px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="https://cdn-icons-png.flaticon.com/512/992/992700.png"
+alt="Calculadora"
+class="logo">
+
+<h1>Calculadora</h1>
+
+<p>Aplicación desarrollada en Android Studio.</p>
+
+<a href="Calculadora.apk" download class="btn">
+📥 Descargar APK
+</a>
+
+<div class="features">
+<h2>Características</h2>
+<ul>
+<li>➕ Suma</li>
+<li>➖ Resta</li>
+<li>✖ Multiplicación</li>
+<li>➗ División</li>
+<li>⚡ Interfaz rápida</li>
+<li>📱 Compatible con Android</li>
+</ul>
+</div>
+
+</div>
+
+</body>
+</html>
